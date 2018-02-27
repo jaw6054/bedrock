@@ -146,8 +146,6 @@ redirectpatterns = (
     redirect(r'^foundation/identity-guidelines/index.html', 'styleguide.home'),
     redirect(r'^foundation/identity-guidelines/mozilla-foundation.html',
              'styleguide.identity.mozilla-branding'),
-    redirect(r'^foundation/identity-guidelines/thunderbird.html',
-             'styleguide.identity.thunderbird-logo'),
 
     # Bug 945474 - delete Marketplace marketing product page
     # and redirect
